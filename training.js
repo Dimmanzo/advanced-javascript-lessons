@@ -74,12 +74,12 @@ console.log(arr5)
 
 // Regular function call 
 const sumALL = (a, b, c) => a + b + c;
-let sum = sumALL(2, 2, 2);
-console.log("sum", sum);
+let sum3 = sumALL(2, 2, 2);
+console.log("sum3", sum);
 
 // Extra arguments are ignored
-let sum2 = sumALL(1, 2, 3, 4, 5, 6);
-console.log("sum2", sum2);
+let sum4 = sumALL(1, 2, 3, 4, 5, 6);
+console.log("sum4", sum2);
 
 // Function using ...rest
 const sumRest = (a, b, c, ...rest) => {
@@ -91,8 +91,8 @@ const sumRest = (a, b, c, ...rest) => {
     return sum;
 }
 
-let sum3 = sumRest(1, 2, 3, 4, 5, 6);
-console.log("sum3", sum3)
+let sum5 = sumRest(1, 2, 3, 4, 5, 6);
+console.log("sum5", sum5)
 
 
 // ------------------------------------------- Destructuring //
